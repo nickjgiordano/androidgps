@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">GPS</string>
+    <string name="latitude">Latitude:</string>
+    <string name="longitude">Longitude:</string>
+    <string name="altitude">Altitude:</string>
+    <string name="locationName">Name:</string>
+    <string name="locationNotes">Notes:</string>
+    <string name="no_data">unavailable</string>
+    <string name="menu_new">New location</string>
+    <string name="menu_saved">Saved locations</string>
+    <string name="menu_email">Email list</string>
+    <string name="menu_delete_all">Delete all locations</string>
+    <string name="menu_save">Save location</string>
+    <string name="menu_delete">Delete location</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/newLocation"
+        android:title="@string/menu_new"
+        android:icon="@drawable/baseline_location_on_white_24dp"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/savedLocations"
+        android:title="@string/menu_saved"
+        android:icon="@drawable/baseline_list_white_24dp"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom"/>
+</menu>

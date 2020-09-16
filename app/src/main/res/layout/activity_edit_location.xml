@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".NewLocation">
+
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/toolbar_edit_location" />
+
+    <TextView
+        android:id="@+id/textView_LblLat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/latitude" />
+
+    <TextView
+        android:id="@+id/textView_Latitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="25dp"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textSize="24sp"
+        android:text="@string/no_data" />
+
+    <TextView
+        android:id="@+id/textView_LblLong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/longitude" />
+
+    <TextView
+        android:id="@+id/textView_Longitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="25dp"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textSize="24sp"
+        android:text="@string/no_data" />
+
+    <TextView
+        android:id="@+id/textView_LblAlt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/altitude" />
+
+    <TextView
+        android:id="@+id/textView_Altitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="25dp"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textSize="24sp"
+        android:text="@string/no_data" />
+
+    <TextView
+        android:id="@+id/textView_LblName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/locationName" />
+
+    <EditText
+        android:id="@+id/editText_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="25dp"
+        android:ems="10"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/textView_LblNotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/locationNotes" />
+
+    <EditText
+        android:id="@+id/editText_Notes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="25dp"
+        android:ems="10"
+        android:inputType="text" />
+</LinearLayout>
